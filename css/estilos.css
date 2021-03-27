@@ -1,0 +1,121 @@
+:root {
+  --morado: #9933cc;
+  --blanco: #fff;
+  --negro: #222;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  color: var(--blanco);
+  font-family: 'Acme', sans-serif;
+}
+
+body {
+  background-color: rgb(19, 18, 18) !important;
+}
+
+img {
+  height: 270px;
+  object-fit: cover;
+}
+
+p, li {
+  font-size: 20px;
+  color: white;
+}
+
+
+.altura_container {
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+}
+
+.jumbotron_imagen {
+  background-image: url('../img/universo.jpg');
+  background-size: cover;
+  height: 479px;
+}
+
+.navbar-toggler-icon {
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.nav-item {
+  font-size: 19px;
+}
+
+.subrayar_texto {
+  border-bottom: 1px solid white;
+}
+
+.vineta_img {
+  list-style: none;
+  padding-left: 12px !important;
+}
+
+/* viñeta de corazón */
+.vineta_img i {
+  color: red;
+  margin-right: 12px;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+/*  ------------------- oraciones.html --------------------------- */
+
+.sombras {
+  box-shadow: 1px 2px 10px 5px rgba(246, 250, 40, 0.952);
+}
+
+/* imagen logo */
+.navbar img {
+  width: 32%;
+  height: 90px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/* barra del navbar */
+.color_navbar {
+  background: #ff00cc; 
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);  
+  background: linear-gradient(to right, #333399, #ff00cc); 
+}
+
+/* icono desplegable del menú */
+.color_blanco {
+  color: var(--blanco);
+  font-size: 23px;
+}
+
+/* borde icono desplegable del menú */
+.navbar-toggler {
+  border: none !important;
+}
+
+.imagen_oraciones {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/*  ------------------- decretos.html --------------------------- */
+
+
+
+
+
+
+
+
+
