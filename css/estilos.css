@@ -87,7 +87,7 @@ ul {
 }
 
 /* barra del navbar */
-.color_navbar {
+.color_navbar, footer {
   background: #ff00cc; 
   background: -webkit-linear-gradient(to right, #333399, #ff00cc);  
   background: linear-gradient(to right, #333399, #ff00cc); 
@@ -111,8 +111,15 @@ ul {
 
 /*  ------------------- decretos.html --------------------------- */
 
+li .span {
+  color: #04cef1;
+  font-family: 'Acme', sans-serif;
+  font-size: 23px;
+}
 
-
+footer h3 {
+  text-align: center;
+}
 
 
 
