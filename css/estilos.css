@@ -1,7 +1,13 @@
+/* @import url(./queriesEstilos.css); */
+
 :root {
   --morado: #9933cc;
   --blanco: #fff;
   --negro: #222;
+}
+
+a {
+  text-decoration: none!important;
 }
 
 * {
@@ -25,13 +31,6 @@ img {
 p, li {
   font-size: 20px;
   color: white;
-}
-
-
-.altura_container {
-  height: 250px;
-  display: flex;
-  align-items: center;
 }
 
 .jumbotron {
@@ -71,6 +70,8 @@ p, li {
 ul {
   padding-left: 24px;
 }
+
+
 
 /*  ------------------- oraciones.html --------------------------- */
 
