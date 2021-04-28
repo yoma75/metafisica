@@ -9,8 +9,8 @@
   <link rel="shortcut icon" href="./img/corazon.png" type="image/png">
   <link rel="stylesheet" href="./css/estilos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 </head>
@@ -40,17 +40,15 @@
     </div>
   </div>
 
-  <div class="container-fluid altura_container bg-white" id="#inicio_botones">
-    <div class="container">
-      <div class="row">
-        <a href="#propositos"><button type="button" class="btn btn-outline-warning mb-4">Tus propósitos</button></a>
-        <a href="#autoliderazgo"><button type="button" class="btn btn-outline-info mb-4 ml-3">Autoliderazgo</button></a>
-        <a href="#autodominio"><button type="button" class="btn btn-outline-danger mb-4 ml-3">Autodominio</button></a>
-        <a href="#disciplina"><button type="button" class="btn btn-outline-success mb-4 ml-3">Disciplina</button></a>
-        <a href="#secreto"><button type="button" class="btn btn-outline-primary mb-4 ml-3">El Secreto</button></a>
-        <a href="#fuego_inter"><button type="button" class="btn btn-outline-danger mb-4 ml-3">Fuego interior</button></a>
-      </div>
-    </div>
+  <div class="container" id="#inicio_botones">  
+    <div class="col-12 mt-5">
+      <a href="#propositos"><button class="btn btn-outline-warning btn-block mb-4">Tus propósitos</button></a>
+      <a href="#autoliderazgo"><button class="btn btn-outline-info btn-block mb-4">Autoliderazgo</button></a>
+      <a href="#autodominio"><button class="btn btn-outline-danger btn-block mb-4">Autodominio</button></a>
+      <a href="#disciplina"><button class="btn btn-outline-success btn-block mb-4">Disciplina</button></a>
+      <a href="#secreto"><button class="btn btn-outline-primary btn-block mb-4">El Secreto</button></a>
+      <a href="#fuego_inter"><button class="btn btn-outline-danger btn-block mb-4">Fuego interior</button></a>
+    </div>  
   </div>
 
   <div class="container pt-4">
@@ -175,9 +173,7 @@
         <h4 class="text-white pt-3 pb-2 subrayar_texto">3. Ritual de la nutrición :</h4>
         <ul>
           <li>Dieta vegetariana: hortalizas, frutas y cereales.</li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Un litro de agua diario.</li>
         </ul>
       </div>
 
@@ -408,15 +404,10 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
 
 </body>
 
