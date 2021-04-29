@@ -1,8 +1,9 @@
-/* @import url(./queriesEstilos.css); */
+@import url(./queriesEstilos.css);
+@import url(./oraciones.css);
 
 :root {
   --morado: #9933cc;
-  --blanco: #fff;
+  --blanco: aliceblue;
   --negro: #222;
 }
 
@@ -38,7 +39,7 @@ p, li {
 }
 
 .jumbotron_imagen {
-  background-image: url('../img/universo.jpg');
+  background-image: url('../img/universo1.jpg');
   background-size: cover;
   height: 479px;
 }
@@ -71,45 +72,6 @@ ul {
   padding-left: 24px;
 }
 
-
-
-/*  ------------------- oraciones.html --------------------------- */
-
-.sombras {
-  box-shadow: 1px 2px 10px 5px rgba(246, 250, 40, 0.952);
-}
-
-/* imagen logo */
-.navbar img {
-  width: 32%;
-  height: 90px;
-  border-radius: 5px;
-  object-fit: cover;
-}
-
-/* barra del navbar */
-.color_navbar, footer {
-  background: #ff00cc; 
-  background: -webkit-linear-gradient(to right, #333399, #ff00cc);  
-  background: linear-gradient(to right, #333399, #ff00cc); 
-}
-
-/* icono desplegable del menú */
-.color_blanco {
-  color: var(--blanco);
-  font-size: 23px;
-}
-
-/* borde icono desplegable del menú */
-.navbar-toggler {
-  border: none !important;
-}
-
-.imagen_oraciones {
-  width: 100%;
-  border-radius: 5px;
-}
-
 /*  ------------------- decretos.html --------------------------- */
 
 li .span {
@@ -121,9 +83,4 @@ li .span {
 footer h3 {
   text-align: center;
 }
-
-
-
-
-
 

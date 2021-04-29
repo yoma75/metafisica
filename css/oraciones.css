@@ -1,0 +1,34 @@
+.sombras {
+  box-shadow: 1px 2px 10px 5px rgba(246, 250, 40, 0.952);
+}
+
+/* imagen logo */
+.navbar img {
+  width: 32%;
+  height: 90px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/* barra del navbar */
+.color_navbar, footer {
+  background: #ff00cc; 
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);  
+  background: linear-gradient(to right, #333399, #ff00cc); 
+}
+
+/* icono desplegable del menú */
+.color_blanco {
+  color: var(--blanco);
+  font-size: 23px;
+}
+
+/* borde icono desplegable del menú */
+.navbar-toggler {
+  border: none !important;
+}
+
+.imagen_oraciones {
+  width: 100%;
+  border-radius: 5px;
+}
