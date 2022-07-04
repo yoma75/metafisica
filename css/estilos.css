@@ -84,3 +84,11 @@ footer h3 {
   text-align: center;
 }
 
+
+
+/*  ------------------- tips.html --------------------------- */
+li .spand {
+  color: #f3f560;
+  font-family: 'Acme', sans-serif;
+  font-size: 23px;
+}
