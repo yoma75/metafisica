@@ -5,6 +5,13 @@
   "hints": {
     "no-inline-styles": "off",
     "axe/structure": "off",
-    "axe/parsing": "off"
+    "axe/parsing": "off",
+    "highest-available-document-mode": "off",
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ]
   }
 }
