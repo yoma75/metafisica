@@ -5,6 +5,15 @@
     justify-content: center;
     margin-left: 14px;
     margin-bottom: 12px;
+  }  
+}
+
+/* Imagen estrella flamigera */
+@media (min-width: 320px) and (max-width: 1740px) {
+  .cuadrar-img {
+    height: 50%;
+    width: 50%;
+    padding-top: 15px;
   }
 }
 
